@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--CAEBZA 
+    ===================================================================-->
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://stimmt.digital/assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/stimmt.digital/assets/images/logos/icon-utp.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/stimmt.digital/assets/images/logos/icon-utp.png">
+    <link rel="manifest" href="https://stimmt.digital/assets/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="https://stimmt.digital/assets/images/favicon/safari-pinned-tab.svg" color="#FB1E40">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#FFFFFF">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129197318-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-129197318-3');
+    </script>
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '411644506318073');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+    <img height="1" width="1"
+         src="https://www.facebook.com/tr?id=411644506318073&ev=PageView
+    &noscript=1"/>
+</noscript>
+    <!-- Leadinfo tracking code -->
+    <script>
+        (function(l, e, a, d, i, n, f, o) {
+            if (!l[i]) {
+                l.GlobalLeadinfoNamespace = l.GlobalLeadinfoNamespace || [];
+                l.GlobalLeadinfoNamespace.push(i);
+                l[i] = function() {
+                    (l[i].q = l[i].q || []).push(arguments)
+                };
+                l[i].t = l[i].t || n;
+                l[i].q = l[i].q || [];
+                o = e.createElement(a);
+                f = e.getElementsByTagName(a)[0];
+                o.async = 1;
+                o.src = d;
+                f.parentNode.insertBefore(o, f);
+            }
+        }(window, document, "script", "https://cdn.leadinfo.net/ping.js", "leadinfo", "LI-5ED9FA9DF0301"));
+    </script>
+    <style>
+        @font-face {
+            font-family: 'Oswald';
+            src: url('https://stimmt.digital/assets/fonts/Oswald-Medium.woff2') format('woff2'), url('https://stimmt.digital/assets/fonts/Oswald-Medium.woff') format('woff');
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap
+        }
+
+        @font-face {
+            font-family: 'Oswald Normal';
+            src: url('https://stimmt.digital/assets/fonts/Oswald-Regular.woff2') format('woff2'), url('https://stimmt.digital/assets/fonts/Oswald-Regular.woff') format('woff');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap
+        }
+
+        @font-face {
+            font-family: 'Alliance No.2 Light';
+            src: url('https://stimmt.digital/assets/fonts/alliance_no.2_light-webfont.woff2') format('woff2'), url('https://stimmt.digital/assets/fonts/fonts/alliance_no.2_light-webfont.woff') format('woff');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap
+        }
+
+        @font-face {
+            font-family: 'Alliance No.2 Medium';
+            src: url('https://stimmt.digital/assets/fonts/fonts/alliance_no.2_medium-webfont.woff2') format('woff2'), url('https://stimmt.digital/assets/fonts/fonts/alliance_no.2_medium-webfont.woff') format('woff');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap
+        }
+    </style>
+    <link rel="stylesheet" href="https://stimmt.digital/assets/dist/style/app.css" />
+    <script type='application/ld+json'>
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "@id": "https://www.stimmt.digital/#website",
+            "url": "https://www.stimmt.digital/",
+            "name": "Stimmt",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://www.stimmt.digital/?s={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        }
+    </script>
+    <script type='application/ld+json'>
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "url": "https://www.stimmt.digital/",
+            "sameAs": ["https://www.facebook.com/stimmtdigital/", "https://www.instagram.com/stimmtdigital/", "https://www.linkedin.com/company/stimmtdigital", "https://twitter.com/stimmtdigital"],
+            "@id": "https://www.stimmt.digital/#organization",
+            "name": "Stimmt",
+            "logo": "https://stimmt.digital/assets/images/stimmt-logo.png"
+        }
+    </script>
+    <title>Contáctanos</title>
+    <meta name="generator" content="SEOmatic">
+    <meta name="description" content="Een nieuw en uitdagend project? Bring it on!">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <meta name="robots" content="all">
+    <meta content="stimmt.digital" property="fb:profile_id">
+    <meta content="nl_NL" property="og:locale">
+    <meta content="en_EN" property="og:locale:alternate">
+    <meta content="Stimmt - Digital awesomeness" property="og:site_name">
+    <meta content="website" property="og:type">
+    <meta content="https://stimmt.digital/contact" property="og:url">
+    <meta content="Contact - Stimmt - Digital awesomeness" property="og:title">
+    <meta content="Een nieuw en uitdagend project? Bring it on!" property="og:description">
+    <meta content="https://stimmt.digital/public/uploads/_1200x630_crop_center-center_82_none/BarbaraTrienen__STIMMTdigital_Sfeer02_0016IMG_485007182019.jpg?mtime=1603974973" property="og:image">
+    <meta content="1200" property="og:image:width">
+    <meta content="630" property="og:image:height">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@stimmtdigital">
+    <meta name="twitter:creator" content="@stimmtdigital">
+    <meta name="twitter:title" content="Contact - Stimmt - Digital awesomeness">
+    <meta name="twitter:description" content="Een nieuw en uitdagend project? Bring it on!">
+    <meta name="twitter:image" content="https://stimmt.digital/public/uploads/_800x418_crop_center-center_82_none/BarbaraTrienen__STIMMTdigital_Sfeer02_0016IMG_485007182019.jpg?mtime=1603974973">
+    <meta name="twitter:image:width" content="800">
+    <meta name="twitter:image:height" content="418">
+    <link href="https://stimmt.digital/contact" rel="canonical">
+    <link href="https://stimmt.digital" rel="home">
+    <link href="https://stimmt.digital/en/contact" rel="alternate" hreflang="en">
+    <link href="https://stimmt.digital/contact" rel="alternate" hreflang="x-default">
+    <link href="https://stimmt.digital/contact" rel="alternate" hreflang="nl">
+</head>
+<!--CUERPO 
+    ===================================================================-->
+<body class="page-contact wrapper--contact">
+    <div class="page-overlay page-overlay--fade-out" id="page-overlay">
+    </div>
+    <a class="stimmt-horns internal stimmt-horns--dark" href="" aria-label="Stimmt icon">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 188.3 166.8">
+    <path d="M127.3 138.6H39.2l11-47.6H8.7L0 128.5h12.6l-2.4 10.1-6.5 28.2h145.9l6.6-28.2 11-47.6h-28.9zM159.3 0l-18.7 80.8h29L188.3 0zM71.2 0H42.3L23.6 80.8h28.9z"/>
+    <path d="M100.6 41.2H71.7l-9.2 39.6L60.1 91h16.1l-17.9 8.1-6.8 29.4h28.9L89.1 91l2.3-10.2zM110.8 41.2l-9.2 39.6L99.2 91h16.1l-17.9 8.1-6.8 29.4h28.9l8.7-37.5 2.3-10.2 9.2-39.6z"/>
+  </svg>
+</a>
+    <div class="nav-trigger">
+        <div class="nav-trigger__inner">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+<!--NAVEGADOR 
+    ===================================================================-->
+    <div class="page-navigation">
+        <div class="page-navigation__inner">
+            <div class="page-navigation__col page-navigation__col--left">
+                <div class="page-navigation__nav">
+                    <ul>
+                        <li>
+                            <a title="Diensten" href="/stimmt.digital/Profesores/stimmt.digital/bedrijf.html"><span>Profesores</span></a>
+                        </li>
+                        <li>
+                            <a title="Werk" href="/stimmt.digital/habilidades/stimmt.digital/werk.html"><span>Habilidades</span></a>
+                        </li>
+                        <li>
+                            <a title="Bedrijf" href="/stimmt.digital/porqueEstudiar/stimmt.digital/diensten.html"><span>¿Por qué?</span></a>
+                        </li>
+                        <li>
+                            <a title="Contact" href="/stimmt.digital/Contact/stimmt.digital/contact.html"><span>Contáctanos</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="page-navigation__col page-navigation__col--right">
+                <div class="page-navigation__details">
+                    <h4>Contáctanos</h4>
+                    <ul>
+                        <li><a href="mailto:admision@utp.edu.pe">admision@utp.edu.pe</a></li>
+                        <li><a href="mailto:U19314535@utp.edu.pe">U19314535@utp.edu.pe</a></li>
+                    </ul>
+                </div>
+                <div class="page-navigation__details">
+                    <h4>Lima</h4>
+                    <ul>
+                        <ul>
+                            <li>Sede Lima Centro: Av. Arequipa 265, Lima.</li>
+                            <li><a href="tel:013159610">Teléfono: (01) 315 9610</a></li>
+                        </ul>
+                    </ul>
+                </div>
+                <div class="page-navigation__details">
+                    <h4>Provincias</h4>
+                    <ul>
+                        <ul>
+                            <li><a href="tel:+080119600">Teléfono: 0801 19 600</a></li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="page-navigation__blinds">
+            <div class="page-navigation__blind page-navigation__blind--left"></div>
+            <div class="page-navigation__blind"></div>
+            <div class="page-navigation__blind"></div>
+            <div class="page-navigation__blind"></div>
+            <div class="page-navigation__blind"></div>
+            <div class="page-navigation__blind page-navigation__blind--right"></div>
+        </div>
+    </div>
+<!--REDES SOCIALES 
+    ===================================================================-->
+    <div class="icons-fixed">
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/luisrodrigoherencia/?hl=es" target="_blank" aria-label="Instagram" rel="noreferrer">
+                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M11.5845915 0h-7.169183C1.98056932 0 0 1.98068762 0 4.4155268v7.1690647C0 14.0194307 1.98056932 16 4.4154085 16h7.169183C14.0194307 16 16 14.0189575 16 11.5845915V4.4155268C16 1.98068762 14.0194307 0 11.5845915 0zm2.9958152 11.5845915c0 1.6520518-1.3437634 2.9958152-2.9958152 2.9958152h-7.169183c-1.65205175 0-2.99581515-1.3437634-2.99581515-2.9958152V4.4155268c0-1.65205175 1.3437634-2.99593345 2.99581515-2.99593345h7.169183c1.6520518 0 2.9958152 1.3438817 2.9958152 2.99593345v7.1690647zM8 3.87761922C5.72640296 3.87761922 3.87702773 5.72699445 3.87702773 8c0 2.273597 1.84937523 4.1229723 4.12297227 4.1229723 2.2731238 0 4.1229723-1.8493753 4.1229723-4.1229723 0-2.27300555-1.8498485-4.12238078-4.1229723-4.12238078zm0 6.82528648c-1.49033641 0-2.70337893-1.21209609-2.70337893-2.7029057 0-1.49021811 1.21256932-2.70326063 2.70337893-2.70326063S10.7033789 6.50978189 10.7033789 8c0 1.49080961-1.21304249 2.7029057-2.7033789 2.7029057zm4.2958078-8.02910163c-.2736267 0-.5421664.11049168-.7352311.30450277-.1946026.19318299-.3059224.46207763-.3059224.73665065 0 .27350831.111793.54204806.3059224.73605915.1927098.19318299.4616044.30462107.7352311.30462107.2744547 0 .542048-.11143808.7360591-.30462107.1941294-.19401109.304976-.46302403.304976-.73605915 0-.27457302-.1108466-.54346766-.304976-.73665065-.193183-.19401109-.4616044-.30450277-.7360591-.30450277z" fill="#FFF" fill-rule="evenodd"/></svg>
+            </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/profile.php?id=100012306482797" target="_blank" aria-label="Facebook" rel="noreferrer">
+                <svg width="7" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M1.45977976 16h2.91813535V8.0039111H6.5670507L7 5.5054222H4.37791511V3.6949333c0-.5836444.37829658-1.1964444.91894919-1.1964444h1.4902215V0H4.96075888v.0112C2.10315099.1146667 1.51603469 1.7656889 1.46512042 3.4999111h-.00534066v2.0055111H0v2.4984889h1.45977976V16z" fill="#FFF" fill-rule="evenodd"/></svg>
+            </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/luis-rodrigo-puma-herencia-95321b222/" target="_blank" aria-label="LinkedIn" rel="noreferrer">
+                <svg width="12" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M1.47924213 2.6099229C.66193615 2.6099229 0 2.0263408 0 1.3056629 0 .5843473.66193615 0 1.47924213 0c.81651531 0 1.47845145.5843473 1.47845145 1.3056629 0 .7206779-.66193614 1.30426-1.47845145 1.30426zM.33886552 11V3.6035818h2.65275226V11H.33886552zm6.37592423-4.1137401v4.0192681H4.06638627V3.5091102h2.64840348v.9957624c.69685812-.8698893 1.30239195-1.2288892 2.40025985-1.2288892C10.2138398 3.2759834 12 3.7796035 12 6.7008297v4.2046983H9.359108V6.8659825c0-.8279316-.2440584-1.6573936-1.2366332-1.6573936-.99257478 0-1.40768505.829462-1.40768505 1.677671z" fill="#FFF" fill-rule="evenodd"/></svg>
+            </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/PumaHerencia" target="_blank" aria-label="Twitter" rel="noreferrer">
+                <svg width="14" height="11" xmlns="http://www.w3.org/2000/svg"><path d="M13.6014667.244144c-.4067778.251965-1.3407334.618106-1.8013334.618106v.000752C11.2742.331692 10.5337556 0 9.7125778 0 8.11766667 0 6.82437778 1.250653 6.82437778 2.792383c0 .214208.02566666.423152.07311111.623521h-.00046667C4.73355556 3.360998 2.3674 2.312369.94297778.517621.0672 1.983535.82506667 3.613867 1.81891111 4.207904c-.3402.024821-.96646667-.037907-1.26124444-.316048-.01975556.972965.46402222 2.262127 2.22802222 2.729806-.33973333.176752-.94111111.126058-1.2026.088451.09177778.821333 1.28115555 1.895084 2.58175555 1.895084C3.70128889 9.12372 1.9572 10.064191 0 9.764991 1.32922222 10.547063 2.8784 11 4.51811111 11c4.65966669 0 8.27835559-3.651925 8.08359999-8.157074-.0007778-.004964-.0007778-.009928-.0012444-.015343.0004666-.011583.0012444-.023166.0012444-.0352 0-.01399-.0012444-.027227-.0017111-.040766.4242-.280547.9933778-.776807 1.4-1.429962-.2358222.125607-.9432889.377121-1.6016.439548.4224889-.220526 1.0484444-.942728 1.2030667-1.517059" fill="#FFF" fill-rule="evenodd"/></svg>
+            </a>
+            </li>
+        </ul>
+    </div>
+<!--CABECERA 
+    ===================================================================-->
+    <header class="header">
+        <a class="stimmt-logo internal" href="/">
+            <img src="/stimmt.digital/assets/images/logos/utp.png" width="117" height="32" alt="Laravel">
+        </a>
+    </header>
+<!--CONTACTANOS 
+    ===================================================================-->
+    <section class="section section--dark section--top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="page-intro col-lg-8 col-xl-5 offset-lg-2">
+                    <h1>CONTÁCTANOS</h1>
+                </div>
+                <div class="lines">
+                    <img class="lines-work" src="https://stimmt.digital/assets/images/lines/lines-werk.svg" width="923" alt="Lines" />
+                </div>
+            </div>
+        </div>
+    </section>
+<!--CORREO 
+    ===================================================================-->
+    <section class="section section--dark">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-xl-4 offset-lg-2 contact-stimmt fade-in-contact">
+                    <ul>
+                        <li>
+                            <h3>Envíanos un Correo</h3>
+                            <li><a href="mailto:admision@utp.edu.pe" class="button button--white button--no-fade"><span data-hover="admision@utp.edu.pe">admision@utp.edu.pe</span></a></li>
+                            <li><a href="mailto:U19314535@utp.edu.pe" class="button button--white button--no-fade"><span data-hover="U19314535@utp.edu.pe">U19314535@utp.edu.pe</span></a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <h3>Teléfono</h3>
+                        </li>
+                        <li><a href="tel:0537601619" class="button button--white button--no-fade"><span data-hover="0801 19 600">0801 19 600</span></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-8 col-lg-6 col-xl-4 offset-lg-2 stimmt-enschede fade-in-contact">
+                    <div class="text-col">
+                        <h3>Lima</h3>
+                        <ul>
+                            <li>Sede Lima Centro: Av. Arequipa 265, Lima.</li>
+                            <li class="parking-info-item"><a class="scroll-to parking-info-item--enschede" href="#map">Ubícanos<svg width="6" height="9" xmlns="http://www.w3.org/2000/svg"><path d="M2.828427 4.242641l2.82842712 2.82842712L4.24264056 8.4852817 1.41421344 5.65685456-1.3e-7 4.242641 4.24264057 3.1e-7l1.41421355 1.41421357L2.828427 4.242641z" fill="#FFF" fill-rule="nonzero"/></svg></a></li>
+                            <li class="space-top"><a href="tel:013159610">(01) 315 9610</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-8 col-lg-6 col-xl-4 stimmt-amsterdam fade-in-contact">
+                    <div class="text-col">
+                        <h3>Arequipa</h3>
+                        <ul>
+                            <li>Sede Arequipa :Av. Tacna y Arica Nº160</li>
+                            <li class="parking-info-item"><a class="scroll-to parking-info-item--amsterdam" href="#map">Ubícanos<svg width="6" height="9" xmlns="http://www.w3.org/2000/svg"><path d="M2.828427 4.242641l2.82842712 2.82842712L4.24264056 8.4852817 1.41421344 5.65685456-1.3e-7 4.242641 4.24264057 3.1e-7l1.41421355 1.41421357L2.828427 4.242641z" fill="#FFF" fill-rule="nonzero"/></svg></a></li>
+                            <li class="space-top"><a href="tel:080119600">0801 19 600</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div id="map" class="map-wrapper">
+                        <div class="map-wrapper__tabs">
+                            <a class="map-wrapper__tab map-wrapper__tab--hengelo map-wrapper__tab--active" href="#map--hengelo">Lima</a>
+                            <a class="map-wrapper__tab map-wrapper__tab--amsterdam" href="#map--amsterdam">Arequipa</a>
+                        </div>
+                        <div class="map map--hengelo map--active" id="map--hengelo"></div>
+                        <div class="map map--amsterdam" id="map--amsterdam"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--FOOTER 
+    ===================================================================-->
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-8 col-lg-4 col-xl-3 offset-xl-1">
+                    <a class="footer-logo internal" href="/stimmt.digital/index.html">
+                        <img src="/stimmt.digital/assets/images/logos/icon-utp.png" width="117" height="32" alt="Laravel">
+                    </a>
+                </div>
+                <div class="col-8 col-lg-4">
+                    <h4>envia un correo</h4>
+                    <ul>
+                        <li><a href="mailto:admision@utp.edu.pe">admision@utp.edu.pe</a></li>
+                        <li><a href="mailto:U19314535@utp.edu.pe">U19314535@utp.edu.pe</a></li>
+                    </ul>
+                </div>
+                <div class="col-8 col-lg-4">
+                    <h4>lima</h4>
+                    <ul>
+                        <li>Sede Lima Centro: Av. Arequipa 265, Lima.</li>
+                        <li><a href="tel:013159610">Teléfono: (01) 315 9610</a></li>
+                    </ul>
+                </div>
+                <div class="col-8 col-lg-4">
+                    <h4>provincias</h4>
+                    <ul>
+                        <li><a href="tel:+080119600">Teléfono: 0801 19 600</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row footer__bottom">
+                <div class="col-8 col-lg-4 col-xl-3 offset-xl-1">
+                    <img src="/stimmt.digital/assets/images/logos/utposcura.png" width="200" height="80" alt="Laravel">
+                </div>
+                <div class="col-lg-4">
+                    <p>© Universidad Tecnológica del Perú S.A.C</p>
+                </div>
+                <div class="col-lg-4">
+                    <p><a href="/stimmt.digital/pdf/mallac.pdf" target="_blank">Malla Curricular (PDF)</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!--SCRIPT 
+    ===================================================================-->
+    <script src="https://stimmt.digital/assets/dist/js/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD43KMDkAvBAY7Y8eY2pv0poye3hwBEjJM"></script>
+    <script type="text/javascript">
+        (function(a) {
+            function b() {
+                var a = Math.max(document.documentElement.clientWidth, window.innerWidth || 0),
+                    b = {
+                        center: new google.maps.LatLng(-12.06582955357723,-77.03690286143443),
+                        zoom: 15,
+                        panControl: !1,
+                        zoomControl: !1,
+                        scrollwheel: !1,
+                        streetViewControl: !1,
+                        mapTypeControl: !1,
+                        scaleControl: !1,
+                        streetViewControl: !1,
+                        scaleControl: !1,
+                        fullscreenControl: !1,
+                        styles: [{
+                            featureType: "all",
+                            elementType: "labels.text.fill",
+                            stylers: [{
+                                saturation: 36
+                            }, {
+                                color: "#000000"
+                            }, {
+                                lightness: 40
+                            }]
+                        }, {
+                            featureType: "all",
+                            elementType: "labels.text.stroke",
+                            stylers: [{
+                                visibility: "on"
+                            }, {
+                                color: "#000000"
+                            }, {
+                                lightness: 16
+                            }]
+                        }, {
+                            featureType: "all",
+                            elementType: "labels.icon",
+                            stylers: [{
+                                visibility: "off"
+                            }]
+                        }, {
+                            featureType: "administrative",
+                            elementType: "geometry.fill",
+                            stylers: [{
+                                color: "#000000"
+                            }, {
+                                lightness: 20
+                            }]
+                        }, {
+                            featureType: "administrative",
+                            elementType: "geometry.stroke",
+                            stylers: [{
+                                color: "#000000"
+                            }, {
+                                lightness: 17
+                            }, {
+                                weight: 1.2
+                            }]
+                        }, {
+                            featureType: "landscape",
+                            elementType: "geometry",
+                            stylers: [{
+                                color: "#000000"
+                            }, {
+                                lightness: 20
+                            }]
+                        }, {
+                            featureType: "poi",
+                            elementType: "geometry",
+                            stylers: [{
+                                color: "#000000"
+                            }, {
+                                lightness: 21
+                            }]
+                        }, {
+                            featureType: "road.highway",
+                            elementType: "geometry.fill",
+                            stylers: [{
+                                color: "#000000"
+                            }, {
+                                lightness: 17
+                            }]
+                        }, {
+                            featureType: "road.highway",
+                            elementType: "geometry.stroke",
+                            stylers: [{
+                                color: "#000000"
+                            }, {
+                                lightness: 29
+                            }, {
+                                weight: .2
+                            }]
+                        }, {
+                            featureType: "road.arterial",
+                            elementType: "geometry",
+                            stylers: [{
+                                color: "#000000"
+                            }, {
+                                lightness: 18
+                            }]
+                        }, {
+                            featureType: "road.local",
+                            elementType: "geometry",
+                            stylers: [{
+                                color: "#000000"
+                            }, {
+                                lightness: 16
+                            }]
+                        }, {
+                            featureType: "transit",
+                            elementType: "geometry",
+                            stylers: [{
+                                color: "#000000"
+                            }, {
+                                lightness: 19
+                            }]
+                        }, {
+                            featureType: "water",
+                            elementType: "geometry",
+                            stylers: [{
+                                color: "#000000"
+                            }, {
+                                lightness: 17
+                            }]
+                        }]
+                    },
+                    c = document.getElementById("map--hengelo"),
+                    d = new google.maps.Map(c, b),
+                    e = new google.maps.MarkerImage("/stimmt.digital/assets/images/logos/icon-utp.png", null, null, null, new google.maps.Size(48, 55)),
+                    f = new google.maps.Marker({
+                        position: new google.maps.LatLng(-12.06582955357723,-77.03690286143443),
+                        map: d,
+                        title: "Stimmt",
+                        icon: e
+                    })
+            }
+
+            function c() {
+                var a = Math.max(document.documentElement.clientWidth, window.innerWidth || 0),
+                    b = {
+                        center: new google.maps.LatLng(-16.40870235969079,-71.54046397485907),
+                        zoom: 15,
+                        panControl: !1,
+                        zoomControl: !1,
+                        scrollwheel: !1,
+                        streetViewControl: !1,
+                        mapTypeControl: !1,
+                        scaleControl: !1,
+                        streetViewControl: !1,
+                        scaleControl: !1,
+                        fullscreenControl: !1,
+                        styles: [{
+                            featureType: "all",
+                            elementType: "labels.text.fill",
+                            stylers: [{
+                                saturation: 36
+                            }, {
+                                color: "#000000"
+                            }, {
+                                lightness: 40
+                            }]
+                        }, {
+                            featureType: "all",
+                            elementType: "labels.text.stroke",
+                            stylers: [{
+                                visibility: "on"
+                            }, {
+                                color: "#000000"
+                            }, {
+                                lightness: 16
+                            }]
+                        }, {
+                            featureType: "all",
+                            elementType: "labels.icon",
+                            stylers: [{
+                                visibility: "off"
+                            }]
+                        }, {
+                            featureType: "administrative",
+                            elementType: "geometry.fill",
+                            stylers: [{
+                                color: "#000000"
+                            }, {
+                                lightness: 20
+                            }]
+                        }, {
+                            featureType: "administrative",
+                            elementType: "geometry.stroke",
+                            stylers: [{
+                                color: "#000000"
+                            }, {
+                                lightness: 17
+                            }, {
+                                weight: 1.2
+                            }]
+                        }, {
+                            featureType: "landscape",
+                            elementType: "geometry",
+                            stylers: [{
+                                color: "#000000"
+                            }, {
+                                lightness: 20
+                            }]
+                        }, {
+                            featureType: "poi",
+                            elementType: "geometry",
+                            stylers: [{
+                                color: "#000000"
+                            }, {
+                                lightness: 21
+                            }]
+                        }, {
+                            featureType: "road.highway",
+                            elementType: "geometry.fill",
+                            stylers: [{
+                                color: "#000000"
+                            }, {
+                                lightness: 17
+                            }]
+                        }, {
+                            featureType: "road.highway",
+                            elementType: "geometry.stroke",
+                            stylers: [{
+                                color: "#000000"
+                            }, {
+                                lightness: 29
+                            }, {
+                                weight: .2
+                            }]
+                        }, {
+                            featureType: "road.arterial",
+                            elementType: "geometry",
+                            stylers: [{
+                                color: "#000000"
+                            }, {
+                                lightness: 18
+                            }]
+                        }, {
+                            featureType: "road.local",
+                            elementType: "geometry",
+                            stylers: [{
+                                color: "#000000"
+                            }, {
+                                lightness: 16
+                            }]
+                        }, {
+                            featureType: "transit",
+                            elementType: "geometry",
+                            stylers: [{
+                                color: "#000000"
+                            }, {
+                                lightness: 19
+                            }]
+                        }, {
+                            featureType: "water",
+                            elementType: "geometry",
+                            stylers: [{
+                                color: "#000000"
+                            }, {
+                                lightness: 17
+                            }]
+                        }]
+                    },
+                    c = document.getElementById("map--amsterdam"),
+                    d = new google.maps.Map(c, b),
+                    e = new google.maps.MarkerImage("/stimmt.digital/assets/images/logos/icon-utp.png", null, null, null, new google.maps.Size(48, 55)),
+                    f = new google.maps.Marker({
+                        position: new google.maps.LatLng(-16.40870235969079,-71.54046397485907),
+                        map: d,
+                        title: "Stimmt",
+                        icon: e
+                    })
+            }
+            a(document).ready(function() {
+                mapHengelo = b(a(this)), mapAsmterdam = c(a(this)), a(".map-wrapper__tab, .text-component__thumbnail").on("click", function(b) {
+                    b.preventDefault(), a(".map-wrapper__tab").removeClass("map-wrapper__tab--active"), a(this).addClass("map-wrapper__tab--active"), a(".map").removeClass("map--active"), a(a(this).attr("href")).addClass("map--active")
+                }), a(".text-component__thumbnail--hengelo, .map-wrapper__tab--hengelo, .parking-info-item--hengelo").on("click", function() {
+                    a(".map").removeClass("map--active"), a(".map--hengelo").addClass("map--active"), a(".map-wrapper__tab").removeClass("map-wrapper__tab--active"), a(".parking-info").removeClass("parking-info--active"), a(".map-wrapper__tab--hengelo").addClass("map-wrapper__tab--active"), a(".parking-info--hengelo").addClass("parking-info--active")
+                }), a(".text-component__thumbnail--amsterdam, .map-wrapper__tab--amsterdam, .parking-info-item--amsterdam").on("click", function() {
+                    a(".map").removeClass("map--active"), a(".map--amsterdam").addClass("map--active"), a(".map-wrapper__tab").removeClass("map-wrapper__tab--active"), a(".parking-info").removeClass("parking-info--active"), a(".map-wrapper__tab--amsterdam").addClass("map-wrapper__tab--active"), a(".parking-info--amsterdam").addClass("parking-info--active")
+                })
+            })
+        })(jQuery);
+    </script>
+    <script src="https://stimmt.digital/assets/dist/js/app.js"></script>
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7557814.js"></script>
+    <!-- End of HubSpot Embed Code -->
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@graph": [{
+                "@type": "CreativeWork",
+                "author": {
+                    "@id": "#identity"
+                },
+                "copyrightHolder": {
+                    "@id": "#identity"
+                },
+                "copyrightYear": "2020",
+                "creator": {
+                    "@id": "#creator"
+                },
+                "dateModified": "2021-01-04T06:10:33-08:00",
+                "datePublished": "2020-09-29T07:52:00-07:00",
+                "description": "Een nieuw en uitdagend project? Bring it on!",
+                "headline": "Contact - Stimmt - Digital awesomeness",
+                "image": {
+                    "@type": "ImageObject",
+                    "url": "https://stimmt.digital/public/uploads/_1200x630_crop_center-center_82_none/BarbaraTrienen__STIMMTdigital_Sfeer02_0016IMG_485007182019.jpg?mtime=1603974973"
+                },
+                "inLanguage": "nl",
+                "mainEntityOfPage": "https://stimmt.digital/contact",
+                "name": "Contact - Stimmt - Digital awesomeness",
+                "publisher": {
+                    "@id": "#creator"
+                },
+                "url": "https://stimmt.digital/contact"
+            }, {
+                "@id": "#identity",
+                "@type": "Organization",
+                "description": "Superstrakke techniek en kick-ass design. Structuur, vormgeving en interactie: alles in balans. Dat is de ultieme digitale merkervaring volgens Stimmt.",
+                "name": "Stimmt"
+            }, {
+                "@id": "#creator",
+                "@type": "Organization"
+            }, {
+                "@type": "BreadcrumbList",
+                "description": "Breadcrumbs list",
+                "itemListElement": [{
+                    "@type": "ListItem",
+                    "item": "https://stimmt.digital",
+                    "name": "Home",
+                    "position": 1
+                }, {
+                    "@type": "ListItem",
+                    "item": "https://stimmt.digital/contact",
+                    "name": "Contact",
+                    "position": 2
+                }],
+                "name": "Breadcrumbs"
+            }]
+        }
+    </script>
+</body>
+
+</html>

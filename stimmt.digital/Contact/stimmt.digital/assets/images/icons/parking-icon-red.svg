@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>icon/mark</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9,0.045 C4.05,0.045 1.42108547e-14,4.07475 1.42108547e-14,9 C1.42108547e-14,13.92525 4.05,17.955 9,17.955 C13.95,17.955 18,13.92525 18,9 C18,4.07475 13.95,0.045 9,0.045 Z M9.9,13.4775 L8.1,13.4775 L8.1,11.6865 L9.9,11.6865 L9.9,13.4775 Z M9.9,9.8955 L8.1,9.8955 L8.1,4.5225 L9.9,4.5225 L9.9,9.8955 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Contact" transform="translate(-1185.000000, -342.000000)">
+            <g id="Group-2" transform="translate(1185.000000, 334.000000)">
+                <g id="icon/mark" transform="translate(0.000000, 8.000000)">
+                    <g id="Rectangle">
+                        <mask id="mask-2" fill="#ff1c3b">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#ff1c3b" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <rect fill="#ff1c3b" mask="url(#mask-2)" x="0" y="0" width="18" height="18"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
